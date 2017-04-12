@@ -1,0 +1,161 @@
+groups = [{
+  "name":"Association for Computing Machinery",
+  "description_short":"We work to promote knowledge and greater interest in the science, design, development, language, management, and applications of modern computing.",
+  "description":"We work to promote knowledge and greater interest in the science, design, development, language, management, and applications of modern computing on the Twin Cities campus and around the Twin Cities area. We provide a place on campus in Keller Hall, room 2-204, where anyone can come to meet and discuss modern computing. Our room is open to any and all, and we welcome computer science, computer engineering, and electrical engineering students, as well as anyone with an interest in computing or programming. We also host several events throughout the year, including MinneHack, the largest Hackathon in the Twin Cities, the Software Design Competition, and the semesterly Keller LAN Party.",
+  "facebook_link":
+  "images":["assets/img/acm-logo.png", "assets/img/acm01.jpg"],
+  "events":[]
+  },
+{  "name":"Latin Dance Club",
+  "description_short":"A student organization focusing on international Latin dance.",
+  "description":"Latin Dance Club of UMN (LDC UMN) is a student organization focusing on international Latin dance. We provide an opportunity for dancers to learn, perform and compete together. All levels are welcome and we teach from the beginning! We also provide high quality technique lessons taught by professional instructor to improve your skills to a more advanced level.",
+  "facebook_link":
+  "images":["latin1.jpg","latin2.jpg", "latin3.jpg","latin4.jpg", "latin5.jpg"],
+  "events":["La La Dance"]
+  }
+  {  "name":"Indian Student Association",
+    "description_short":"The Indian Student Association strives to celebrate and share the culture of India with students at the UMN.",
+    "description":"The Indian Student Association has three main focuses. The first being facilitating a "home away from home environment for Indian International students and students of Indian Descent. The Second is to create exposure about the Indian Culture to anyone who is willing to listen. The third is to perform a platform for our general members to showcase their talents in a cultural show. "",
+    "facebook_link":
+    "images":["assets/img/isa1.jpg", "assets/img/isa2.jpg", "assets/img/isa3.jpg", "assets/img/isa4.jpg", "assets/img/isa5.jpg"],
+    "events":["Spring Formal, Fall Show, Picnic "]
+    }
+
+    {  "name":"Society of Women Engineers",
+      "description_short":"The Society of Women Engineers is a student group that works towards creating community amongst women engineers on campus.",
+      "description": "The primary focus of the Society of Women Engineers is to support and encourage women in science and engineering fields. SWE provides support, leadership opportunities, outreach experiences, community involvement, teamwork skills, and personal/professional development for females in science and engineering.",
+       "facebook_link":
+      "images":["assets/img/ldc01.png", "assets/img/ldc02.jpg", "assets/img/ldc03.jpg", "assets/img/ldc04.jpg", "assets/img/ldc05.jpg"],
+      "events":["MiniTalks with Mentorship", Monthly Meetings]
+
+      https://www.facebook.com/events/1108095409333862/?acontext=%7B%22ref%22%3A%223%22%2C%22ref_newsfeed_story_type%22%3A%22regular%22%2C%22action_history%22%3A%22null%22%7D
+
+      }
+
+
+      {  "name":"MIS Case Competition",
+        "description_short":"Are you interested in solving business problems? Do you want to travel the world? The MIS case competition is the team for you!",
+        "description": "Each school year, the Information and Decision Sciences Department assembles two teams of undergraduate students to represent the Carlson School and the University of Minnesota in international MIS-focused case competitions. One team competes at CaseIT - the oldest and most well-known MIS case competition - in Vancouver, Canada. The other team competes at APEX in Singapore, an MIS-themed case competition that values deep analysis and usually includes a local Asian dimension to the case.",
+        "facebook_link":
+        "images":["assets/img/ldc01.png", "assets/img/ldc02.jpg", "assets/img/ldc03.jpg", "assets/img/ldc04.jpg", "assets/img/ldc05.jpg"],
+        "events":["practices, Vancouver trip, Singapore trip"]
+       }
+
+       {  "name":"IoT Collabarotive",
+          "description_short":"The IoT Collaborative is a recently formed student group that wants to provide students interested in technology with the opportunity to get hands on experience with arduinos, wearables, electric paint, 3D printing. Please come join us every Friday from 2:30-4:00pm!",
+          "description": "The IoT Collaborative is a recently formed student group that wants to provide students interested in technology with the opportunity to get hands on experience with arduinos, wearables, electric paint, 3D printing. Please come join us every Friday from 2:30-4:00pm!" dimension to the case. ",
+          "Facebook_link":
+          "images":["assets/img/ldc01.png", "assets/img/ldc02.jpg", "assets/img/ldc03.jpg", "assets/img/ldc04.jpg", "assets/img/ldc05.jpg"],
+          "events":["Weekly Meetings"]
+      }
+
+
+
+
+
+
+
+  ]
+
+events = [{
+    "name":"La La Dance",
+    "group":"Latine Dance Club",
+    "date":"4/15/17",
+    "time":"3:00 PM - 5:00 PM",
+    "description_short":"All in the fabulous La La Dance!",
+    "description":"Come and have fun at La La Dance! This is a ball held by LDC of UMN, and you are welcomed to learn some basic Latin dance steps or show your own steps with the music! We also have some fun steps from La La Land!\nNo dancing experience is required. Our club members will teach you some basic steps! No partner is required. You will always find a partner in the dance pool.",
+    "cost":5,
+    "image":""
+  }
+
+  {
+      "name":"Cyborg-Unicorn Cook-In ",
+      "group":"Association for Computing Machinery-ACM",
+      "date":"2/16/18",
+      "time":" 6:30-9:30pm",
+      "description_short":"A Cyborg-Unicorn Cook-In! Please come to room 3-126 in Keller Hall for lot's of free-food and a great discussion about Cyborgs and Unicorns",
+      "description":"",
+      "cost":5,
+      "image":"Cyborg-Unicorn.jpg"
+    }]
+
+
+    {
+        "name":"Basant",
+        "group":"Indian Student Association and Pakistani Student Association",
+        "date":"4/9/17",
+        "time":" 5:00- 8:00pm",
+        "location":"Coffman Front Plaza",
+        "description_short":"Please come to our end of the year Picnic for your favorite Indian and Pakistani food! Basant, is a kite festival shared with both Pakistani's and people of Northern India. In order to celebrate here on campus, we will be providing kites!",
+        "description":"",
+        "cost":5,
+        "image":"Basant.jpg"
+      }
+
+      {
+          "name":"Holi-Colors that Unite",
+          "group":"Bharat",
+          "date":"4/23/17",
+          "time":" 12:00- 4:00pm",
+          "location":"East River Flats",
+          "description_short":"Holi is one of the best events on campus! Come wearing white, and throw colors at your friends. (We also have water guns!)",
+          "description":"THE MOST COLORFUL AND FUN EVENT OF THE YEAR IS FINALLY HERE - BHARAT’S HOLI 2K17 !!Join us at East River Flats Park (behind Yudof) on April 23rd for the annual Holi festival!! It is one of the most popular and widely celebrated festivals in India. Known as the “festival of colors”, Holi signifies the arrival of spring and is celebrated with colors, good food, and is an opportunity to make great memories and have an amazing time.At the event, there will be color powders and water guns for FREE. Delicious food and beverages will be available for purchase.",
+          "cost":0,
+          "image":"Basant.jpg"
+        }
+
+        {
+            "name":"Laverne Cox Presentation",
+            "group":"SUA",
+            "date": "4/25/17"
+            "time":"7:00 pm",
+            "location":"Northrop Auditorium",
+            "description_short":"Laverne Cox is coming to Northrop! Please go buy your tickets today!",
+            "description":"Laverne Cox explores how the intersections of race, class, and gender uniquely affect the lives of trans women of color. Laverne draws from her own personal narrative to share how she has been able to navigate the world and all it's challenges. From growing up in Mobile, Alabama, raised by a single mother in a Christian family, to attending college in New York City to pursue a career as an actress, to finally finding the courage to step into the womanhood she always knew at heart was her destiny, Cox tells the story of the unique challenges along her journey to womanhood, professional achievement, self-acceptance, and love.",
+            "cost":12,
+            "image":"Laverne_Cox.jpg"
+          }
+
+          {
+              "name":"Coding Competition",
+              "group":"Association for Computing Machinery",
+              "date":"5/10/17",
+              "time":"5:00 pm",
+              "location":"Keller Hall Atruim",
+              "description_short":"Come for one last Coding Challenge before the semester is over! Mesa pizza provided",
+              "description":"Come for one last Coding Challenge before the semester is over!",
+              "cost":0
+              "image":"coding.jpg"
+            }
+
+            {
+              "name":"CSCI Pre-registration Mingle",
+              "group":"Association for Computing Machinery-Women",
+              "date":"4/14/17",
+              "time":"10 am-12pm",
+              "location":"Physics and NanoTechnology 130",
+              "description_short":"Hello Computer Science Majors! We have an opportunity for you to discuss you upcoming schedule for the next semester with you peers and advisor Kelly Thomas!",
+              "description":"Hello Computer Science Majors! We have an opportunity for you to discuss you upcoming schedule for the next semester with you peers and advisor Kelly Thomas!",
+              "cost":0
+              "image":"Acm-w.jpg"
+              }
+
+              {
+                "name":"Art Reception: designbats",
+                "group":"Association for Computing Machinery-Women",
+                "date":"5/8/17",
+                "time":"6pm",
+                "location":"Saint Paul Student Center- Art Gallery",
+                "description_short":"Please come encourage your CDES friends at the art show! This theme for this gallery is the mysterious bat.",
+                "description":"This exhibit examines the life of the bat population.
+
+Academic classes from a variety of Design disciplines will be creating visuals that re-envision this mammal. The intent behind each representation will be to help change how bats are perceived by the public sector. Bats are often misunderstood and are not credited with the quality of sustainability that they bring to our ecosystems. Visit this exhibition to learn more about this very important mammal and witness creative works by Design students across campus.",
+                "cost":0
+                "image":"DesignBats.jpg"
+                }
+
+
+
+
+
+      ]

@@ -1,0 +1,212 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Survey
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-slides pager>
+
+<ion-slide>
+
+<ion-list>
+
+<p>
+In which colleges do you take classes?
+</p>
+
+  <ion-item>
+    <ion-label>CSE</ion-label>
+    <ion-checkbox [(ngModel)]="CSE"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>CLA</ion-label>
+    <ion-checkbox [(ngModel)]="CLA"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>CDES</ion-label>
+    <ion-checkbox [(ngModel)]="CDES"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Carlson</ion-label>
+    <ion-checkbox [(ngModel)]="Carlson"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>CFANS</ion-label>
+    <ion-checkbox [(ngModel)]="CFANS"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>CEHD</ion-label>
+    <ion-checkbox [(ngModel)]="CEHD"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>CBS</ion-label>
+    <ion-checkbox [(ngModel)]="CBS"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>CCE</ion-label>
+    <ion-checkbox [(ngModel)]="CCE"></ion-checkbox>
+  </ion-item>
+
+</ion-list>
+
+</ion-slide>
+<ion-slide>
+
+<p>
+How much sun do you see a day?
+</p>
+
+<ion-item>
+  <ion-range [(ngModel)]="cloud">
+    <ion-icon range-left name="cloudy"></ion-icon>
+    <ion-icon range-right name="sunny"></ion-icon>
+  </ion-range>
+</ion-item>
+
+<p>
+How do you feel about memes?
+</p>
+
+<ion-item>
+  <ion-range [(ngModel)]="thumbsup">
+    <ion-icon range-left name="thumbs-down"></ion-icon>
+    <ion-icon range-right name="thumbs-up"></ion-icon>
+  </ion-range>
+</ion-item>
+
+</ion-slide>
+<ion-slide>
+
+<ion-list radio-group>
+
+<p>
+What year are you in school?
+</p>
+
+  <ion-item>
+    <ion-label>Freshman</ion-label>
+    <ion-radio value="freshie"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Sophomore</ion-label>
+    <ion-radio value="soph"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Junior</ion-label>
+    <ion-radio value="junior"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Senior</ion-label>
+    <ion-radio value="senior"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Graduate student</ion-label>
+    <ion-radio value="grad"></ion-radio>
+  </ion-item>
+
+</ion-list>
+
+</ion-slide>
+<ion-slide>
+
+<ion-list radio-group>
+
+<p>
+What is your highest PokemonGo level?
+</p>
+
+  <ion-item>
+    <ion-label>What is PokemonGo?</ion-label>
+    <ion-radio value="aa"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>1-5</ion-label>
+    <ion-radio value="bb"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>6-10</ion-label>
+    <ion-radio value="cc"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>11-20</ion-label>
+    <ion-radio value="dd"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>&gt;20</ion-label>
+    <ion-radio value="ee"></ion-radio>
+  </ion-item>
+
+<!--   <ion-item>
+    <ion-label>Please, I beat the game</ion-label>
+    <ion-radio value="ff"></ion-radio>
+  </ion-item> -->
+</ion-list>
+
+</ion-slide>
+<ion-slide>
+
+<ion-list radio-group>
+
+<p>
+What are your ideal Friday Night Plans
+</p>
+
+  <ion-item>
+    <ion-label>Coding an app in Keller Hall</ion-label>
+    <ion-radio value="aaa"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>A night in baking cookies</ion-label>
+    <ion-radio value="bbb"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Hitting the town with your BFFL!!!</ion-label>
+    <ion-radio value="ccc"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Date Night with bae &lt;3</ion-label>
+    <ion-radio value="ddd"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Kicking it old school with PS2</ion-label>
+    <ion-radio value="eee"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Making paninis</ion-label>
+    <ion-radio value="fff"></ion-radio>
+  </ion-item>
+</ion-list>
+
+  <button ion-button on-tap="openFeed();" icon-left>
+  <ion-icon name="arrow-dropright-circle"></ion-icon>
+  Submit
+</button>
+
+</ion-slide>
+</ion-slides>
+
+</ion-content>

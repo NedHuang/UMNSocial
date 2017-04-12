@@ -1,0 +1,29 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.about-header {
+  margin-top:none;
+  background-color: #800000;
+  padding: 16px;
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+}
+
+.about-header img {
+  max-width: 200px;
+  min-height: 115px;
+  margin-left: -15px;
+  padding: 25px 0 20px 0;
+}
+.slider{
+  height:40vh;
+  width:auto;
+}
+
+.slider-slide {
+  max-width: 100%;
+  max-height: 100%;
+}

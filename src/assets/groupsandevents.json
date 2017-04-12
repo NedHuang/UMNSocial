@@ -1,0 +1,24 @@
+	groups = [{
+    "name":"Association for Computing Machinery",
+    "description_short":"We work to promote knowledge and greater interest in the science, design, development, language, management, and applications of modern computing.",
+    "description":"We work to promote knowledge and greater interest in the science, design, development, language, management, and applications of modern computing on the Twin Cities campus and around the Twin Cities area. We provide a place on campus in Keller Hall, room 2-204, where anyone can come to meet and discuss modern computing. Our room is open to any and all, and we welcome computer science, computer engineering, and electrical engineering students, as well as anyone with an interest in computing or programming. We also host several events throughout the year, including MinneHack, the largest Hackathon in the Twin Cities, the Software Design Competition, and the semesterly Keller LAN Party.",
+    "images":["assets/img/acm-logo.png", "assets/img/acm01.jpg"],
+    "events":[]
+    },
+ {  "name":"Latin Dance Club",
+    "description_short":"A student organization focusing on international Latin dance.",
+    "description":"Latin Dance Club of UMN (LDC UMN) is a student organization focusing on international Latin dance. We provide an opportunity for dancers to learn, perform and compete together. All levels are welcome and we teach from the beginning! We also provide high quality technique lessons taught by professional instructor to improve your skills to a more advanced level.",
+    "images":["assets/img/ldc01.png", "assets/img/ldc02.jpg", "assets/img/ldc03.jpg", "assets/img/ldc04.jpg", "assets/img/ldc05.jpg"],
+    "events":["La La Dance"]
+    }]
+
+ events = [{
+    	"name":"La La Dance",
+    	"group":"Latine Dance Club",
+    	"date":"4/15/17",
+    	"time":"3:00 PM - 5:00 PM",
+    	"description_short":"All in the fabulous La La Dance!",
+    	"description":"Come and have fun at La La Dance! This is a ball held by LDC of UMN, and you are welcomed to learn some basic Latin dance steps or show your own steps with the music! We also have some fun steps from La La Land!\nNo dancing experience is required. Our club members will teach you some basic steps! No partner is required. You will always find a partner in the dance pool.",
+    	"cost":5,
+    	"image":""
+    }]

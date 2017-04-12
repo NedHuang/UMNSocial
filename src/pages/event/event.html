@@ -1,0 +1,51 @@
+<!--
+  Generated template for the Event page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Event Details</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+<ion-item><img src={{event.image}} alt = "event picture"></ion-item>
+  <!-- <br> -->
+  <h1>{{event.name}}</h1>
+  <h5 style="color:#808080">by <span on-tap="goToGroup();" style="color:blue;">{{event.group}}</span></h5><br />
+  <p>
+     <span style="font-weight:bold">Date:</span> {{event.date}}
+  </p>
+  <p>
+     <span style="font-weight:bold">Time:</span> {{event.time}}
+  </p>
+  <p>
+     <span style="font-weight:bold">Location:</span> {{event.location}}
+  </p>
+  <p>
+    <span style="font-weight:bold">Cost:</span> ${{event.cost}}
+  </p>
+
+  <p>{{event.description}}</p>
+  <br />
+  <h4>Social</h4>
+  <img src={{event.friendimg}} height="50px" alt="friend pictures" />
+  <p style="font-style:italic">
+    You have {{event.friends}} friends interested in this event.
+  </p>
+  <ion-buttons>
+    <button on-tap="inviteFriends()" ion-button icon-left>
+      <ion-icon name="people"></ion-icon>
+      Invite Friends
+    </button>
+    <button on-tap="addToCal()" ion-button icon-left>
+      <ion-icon name="calendar"></ion-icon>
+      Add to Google Calendar
+    </button>
+  </ion-buttons>
+
+</ion-content>

@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-navbar no-border-bottom>
+    <ion-segment [(ngModel)]="feedContents" color="secondary">
+      <ion-segment-button value="events">Events</ion-segment-button>
+      <ion-segment-button value="groups">Groups</ion-segment-button>
+
+
+      <div [ngSwitch]="feedContents">
+        <ion-buttons *ngSwitchCase="'events'" end>
+          <button ion-button (click)="openEventFilter($event)" icon-only>
+            <ion-icon name="options" color="secondary"></ion-icon>
+          </button>
+        </ion-buttons>
+        <ion-buttons *ngSwitchCase="'groups'" end>
+          <button ion-button (click)="openGroupFilter($event)" icon-only>
+            <ion-icon name="options" color="secondary"></ion-icon>
+          </button>
+        </ion-buttons>
+      </div>
+    </ion-segment>
+    <ion-searchbar (ionInput)="getItems($event)" value="{{query}}"></ion-searchbar>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div [ngSwitch]="feedContents">
+    <ion-list *ngSwitchCase="'groups'" no-lines #groupList>
+      <ion-card padding *ngFor="let g of groups_filter.groups" (click)="groupTapped($event, g)">
+        <img src={{g.images[0]}} />
+        <ion-card-content>
+          <ion-card-title>
+            {{g.name}}
+          </ion-card-title>
+          <p>
+            {{g.description_short}}
+          </p>
+          <button ion-button icon-left clear small>
+            <ion-icon name="person" color="primary"></ion-icon>
+            <div>{{g.friends}} friends involved</div>
+          </button>
+        </ion-card-content>
+      </ion-card>
+    </ion-list>
+    <ion-list *ngSwitchCase="'events'" no-lines #eventList>
+      <ion-card padding *ngFor="let e of events_filter.events" (click)="eventTapped($event, e)">
+        <img src={{e.image}}/>
+        <ion-card-content>
+          <ion-card-title>
+            {{e.name}}
+          </ion-card-title>
+          <p>{{e.date}}</p>
+          <p>
+            {{e.description_short}}
+          </p>
+          <button ion-button icon-left clear small>
+            <ion-icon name="person" color="primary"></ion-icon>
+            <div>{{e.friends}} friends attending</div>
+          </button>
+        </ion-card-content>
+      </ion-card>
+    </ion-list>
+
+  </div>
+</ion-content>

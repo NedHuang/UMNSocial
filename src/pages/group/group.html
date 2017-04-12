@@ -1,0 +1,47 @@
+<!--
+  Generated template for the Group page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Group Details</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding >
+
+<ion-item>
+  <ion-slides class="slider">
+    <ion-slide *ngFor="let i of group.images">
+        <img class="slider-slide" src={{i}} alt="group photo" />
+    </ion-slide>
+  </ion-slides>
+</ion-item>
+
+
+<h1>{{group.name}}</h1>
+<h5 style="color:blue" on-tap="goToEvents();">View this group's events</h5><br />
+
+<p>
+  {{group.description}}
+</p><br />
+
+<h5>Social</h5>
+<img src={{group.friendimg}} height="50px" alt="friend photos" />
+<p style="font-style:italic">
+  You have {{group.friends}} friends in this group.
+</p>
+<ion-buttons>
+  <button on-tap="watch()" ion-button icon-left>
+    <ion-icon name="eye"></ion-icon>
+    Watch
+  </button>
+  <button on-tap="endorse()" ion-button icon-left>
+    <ion-icon name="thumbsup"></ion-icon>
+    Endorse
+  </button>
+  <button on-tap="openFacebook()" ion-button>Connect on Facebook</button>
+</ion-buttons>
+
+</ion-content>

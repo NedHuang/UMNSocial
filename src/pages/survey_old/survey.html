@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Survey
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-item>
+  <ion-label>What College are you in?</ion-label>
+  <ion-select [(ngModel)]="college">
+    <ion-option value="cse" selected="true">CSE</ion-option>
+    <ion-option value="cla">CLA</ion-option>
+    <ion-option value="cfans">CFANS</ion-option>
+    <ion-option value="cce">CCE</ion-option>
+    <ion-option value="cehd">CEHD</ion-option>
+    <ion-option value="cbs">CBS</ion-option>
+    <ion-option value="cdes">CDES</ion-option>
+    <ion-option value="carlson">Carlson</ion-option>
+    <ion-option value="grad_school">Grad School</ion-option>
+    <ion-option value="nope">I don't even go here</ion-option>
+  </ion-select>
+</ion-item>
+
+<br>
+<br>
+
+  <ion-item>
+    <ion-label fixed>Year:</ion-label>
+    <ion-input type="text" value="Graduation year"></ion-input>
+  </ion-item>
+
+<br>
+<br>
+
+  <ion-item>
+  <ion-label>What is your highest PokemonGo level?</ion-label>
+  <ion-select [(ngModel)]="pokemongo">
+    <ion-option value="nah" selected="true">What is PokemonGo?</ion-option>
+    <ion-option value="one">1-5</ion-option>
+    <ion-option value="two">6-10</ion-option>
+    <ion-option value="three">10-20</ion-option>
+    <ion-option value="four">20+</ion-option>
+    <ion-option value="five">Please, I beat the game</ion-option>
+    <ion-option value="pikachu">Well I caught Pikachu soooooo...</ion-option>
+  </ion-select>
+</ion-item>
+
+<br>
+<br>
+
+  <ion-item>
+  <ion-label>What are your ideal Friday night plans?</ion-label>
+  <ion-select [(ngModel)]="friday">
+    <ion-option value="coding" selected="true">Coding an app in Keller Hall</ion-option>
+    <ion-option value="baking">A night in baking cookies</ion-option>
+    <ion-option value="club">Hitting the town with your besties!!!!!</ion-option>
+    <ion-option value="date">Date Night with bae &lt;3</ion-option>
+    <ion-option value="four">Kicking it old school with dem video games</ion-option>
+  </ion-select>
+</ion-item>
+
+<br>
+<br>
+
+  <ion-item>
+  <ion-label>What would you be most likely seen doing?</ion-label>
+  <ion-select [(ngModel)]="friday">
+    <ion-option value="rock" selected="true">Rock Climbing</ion-option>
+    <ion-option value="baking">Making Paninis</ion-option>
+    <ion-option value="csci">Coding</ion-option>
+    <ion-option value="sleeping">Sleeping</ion-option>
+    <ion-option value="four">Traveling</ion-option>
+  </ion-select>
+</ion-item>
+
+</ion-content>
